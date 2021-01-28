@@ -1,12 +1,16 @@
 body{
     background-image: url(https://i0.wp.com/www.aipbarcelona.com/wp-content/uploads/2020/01/Por-qu%C3%A9-estudiar-Inform%C3%A1tica-en-AIP-en-2020.jpg);
     background-attachment: fixed;
+    min-width: 450px;
+   
 }
 
 /* NAVEGACION */
 .navbar{
     background-color: rgba(3, 2, 2, 0.493);
 }
+
+
 
 /* FLECHA */
 svg{
@@ -152,7 +156,9 @@ main{
                 background-color: rgba(240, 248, 255, 0.904);
                 margin: 3%;
                 border: 3px solid rgb(74, 195, 216);
-                border-radius: 5%
+                border-radius: 5%;
+                min-width: 295px;
+
             }
 
                 #contact .form-contact .row .itemContact:hover{
@@ -214,3 +220,39 @@ a{
 .efect:hover{
     transform: scale(1.3);
 }
+
+.p-3 .itemContact{
+    min-width: 180px;
+}
+
+@media only screen and (max-width: 995px) {
+    #snow{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    #contact .form-contact{
+        width: 66%;
+        margin:0 auto!important;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 775px) {
+    #proyect{
+        height: 100%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 530px) {
+    #about{
+        height: 100%;
+    }
+    
+}
+
