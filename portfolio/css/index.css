@@ -10,6 +10,11 @@ body{
     background-color: rgba(3, 2, 2, 0.493);
 }
 
+.navbar .collapse .nav .nav-item .nav-link:hover{
+    background-color: rgb(7, 178, 194);
+    color: white;
+}
+
 
 
 /* FLECHA */
